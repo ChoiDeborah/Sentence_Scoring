@@ -1,0 +1,36 @@
+<!-- 5. Robots developed by researchers at Seoul National University can change their color and shape. -->
+<!-- 서울대학교의 연구원들에 의해 개발된 로봇들은 그들의 색과 형태을 바꿀 수 있다 -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="로봇들은"> Robots </word>
+    <chunk pos="aj" translation="서울대학교의 연구원들에 의해 개발된">
+      <part role="trg">
+        <word pos="aj" translation="개발된"> developed </word>
+      </part>
+      <part role="obj">
+        <chunk pos="av" translation="서울대학교의 연구원들에 의해">
+          <part role="trg">
+            <word pos="pp" translation="의해"> by </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="연구원들"> researchers </word>
+            <chunk pos="aj" translation="서울대학교의">
+              <part role="trg">
+                <word pos="pp" translation="에서"> at </word>
+              </part>
+              <part role="obj">
+                <word pos="nn" translation="서울대학교"> Seoul National University </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+  </chunk>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="바꿀 수 있다"> can change </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="그들의 색과 형태를"> their color and shape. </word>
+  </part>
+</sentence>

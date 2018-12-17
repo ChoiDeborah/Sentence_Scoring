@@ -1,0 +1,74 @@
+<!-- I had no idea what I wanted to do with my life and no idea how college was going to help me figure it out. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="나는"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="가졌었다"> had </word>
+  </part>
+  <part role="obj">
+    <word pos="aj" translation="(부정)"> no </word>
+    <word pos="nn" translation="생각"> idea </word>
+    <chunk pos="nn" translation="내 인생에서 내가 무엇을 하고자 했는지" annotation="명사절:동격">
+      <part role="trg">
+        <word pos="nn" translation="무엇" annotation="접속사:명사절:what"> what </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="내가"> I </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="원했었다"> wanted </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="하는 것" annotation="to부정사:명사">
+          <part role="trg">
+            <word pos="pp" translation="것"> to </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="하다"> do </word>
+          </part>
+        </chunk>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="내 인생에서" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="에서" annotation="전치사:with"> with </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="내 인생"> my life </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+    <word pos="cj" translation="그리고"> and </word>
+    <word pos="aj" translation="(부정)"> no </word>
+    <word pos="nn" translation="생각"> idea </word>
+    <chunk pos="nn" translation="내가 그것을 파악하는데 대학이 어떻게 도와줄 수 있는지" annotation="명사절:동격">
+      <part role="trg">
+        <word pos="av" translation="어떻게" annotation="접속사:명사절:how"> how </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="대학이"> college </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="도와주기로 했다"> was going to help </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="내가"> me </word>
+      </part>
+      <part role="cpm">
+        <chunk pos="nn" translation="그것을 파악하는 것" annotation="원형부정사">
+          <part role="trg">
+            <word pos="vb" translation="파악하다"> figure </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="그것을"> it </word>
+          </part>
+          <part role="adj">
+            <word pos="av" translation=""> out. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>

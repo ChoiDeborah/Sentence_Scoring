@@ -1,0 +1,23 @@
+<!-- 02. Anyone who has never made a mistake has never tried anything new. -->
+<sentence>
+  <part role="sbj">
+		<word pos="nn" translation="누구나"> Anyone </word>
+		<chunk pos="aj" translation="실수를 해보지 못한 사람은" annotation="형용사절">
+			<part role="trg">
+				<word pos="nn" translation="누구나" annotation="접속사:형용사절:who"> who </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="만들어 보지 못했다" annotation="시제:현재완료"> has never made </word>
+			</part>
+			<part role="obj">
+				<word pos="nn" translation="실수를"> a mistake </word>
+			</part>
+		</chunk>
+	</part>
+	<part role="prd">
+		<word pos="vb" translation="시도해 보지 않은 것이다" annotation="시제:현재완료"> has never tried </word>
+	</part>
+	<part role="obj">
+		<word pos="nn" translation="새로운 어떤 것도"> anything new </word>
+	</part>
+</sentence>

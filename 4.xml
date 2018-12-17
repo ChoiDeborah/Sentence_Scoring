@@ -1,0 +1,55 @@
+<!-- 03. Education is what remains after one has forgotten what one has learned in school. -->
+<sentence>
+	<part role="sbj">
+		<word pos="nn" translation="교육은"> Education </word>
+	</part>
+	<part role="prd">
+		<word pos="be" translation="(무엇)이다" annotation="be동사:설명"> is </word>
+	</part>
+	<part role="cpm">
+		<chunk pos="nn" translation="남아있는 어떤것" annotation="명사절">
+			<part role="trg">
+				<word pos="nn" translation="어떤것이" annotation="접속사:명사절:what"> what </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="남아있다"> remains </word>
+			</part>
+		</chunk>
+	</part>
+	<part role="adj">
+		<chunk pos="av" translation="누군가가 학교에서 배웠던 무엇인가를 잊어버리고 난 후에" annotation="부사절:시간">
+			<part role="trg">
+				<word pos="pp" translation="이후" annotation="접속사:부사절:after"> after </word>
+			</part>
+			<part role="sbj">
+				<word pos="nn" translation="누군가가" annotation="대명사:인칭"> one </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="잊어버리다" annotation="시제:현재완료"> has forgotten </word>
+			</part>
+			<part role="obj">
+				<chunk pos="nn" translation="누군가가 학교에서 무엇인가를 배웠다" annotation="명사절">
+					<part role="trg">
+						<word pos="nn" translation="무엇인가를" annotation="접속사:명사절:what"> what </word>
+					</part>
+					<part role="sbj">
+						<word pos="nn" translation="누군가가" annotation="대명사:인칭"> one </word>
+					</part>
+					<part role="prd">
+						<word pos="vb" translation="배웠다" annotation="시제:현재완료"> has learned </word>
+					</part>
+					<part role="adj">
+						<chunk pos="av" translation="학교에서" annotation="전치사구:부사:장소">
+							<part role="trg">
+								<word pos="pp" translation="에서" annotation="전치사:in:장소"> in </word>
+							</part>
+							<part role="obj">
+								<word pos="nn" translation="학교"> school </word>
+							</part>
+						</chunk>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+</sentence>

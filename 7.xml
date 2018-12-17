@@ -1,0 +1,58 @@
+<!-- It turned out that getting fired from Apple was the best thing that could have ever happened to me. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="그것은"> It </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="밝혀졌다"> turned out </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="애플로부터 해고 당한 것은 나에게 지금까지 일어날 수 있었던 최고의 것이라는 사실" annotation="명사절:사실">
+      <part role="trg">
+        <word pos="cj" translation="것" annotation="접속사:명사절:that"> that </word>
+      </part>
+      <part role="sbj">
+        <chunk pos="nn" translation="애플로부터 해고 당한 것" annotation="동명사구">
+          <part role="trg">
+            <word pos="cj" translation="(상태로)당한 것" annotation="동명사"> getting </word>
+          </part>
+          <part role="cpm">
+            <word pos="aj" translation="해고된" annotation="과거분사구:형용사"> fired </word>
+            <chunk pos="av" translation="애플로부터" annotation="전치사구:부사">
+              <part role="trg">
+                <word pos="pp" translation="부터" annotation="전치사:from"> from </word>
+              </part>
+              <part role="obj">
+                <word pos="nn" translation="애플"> Apple </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(무엇)이었다" annotation="be동사:설명"> was </word>
+      </part>
+      <part role="cpm">
+        <word pos="nn" translation="최고의 것"> the best thing </word>
+        <chunk pos="aj" translation="나에게 지금까지 일어날 수 있었던" annotation="형용사절">
+          <part role="trg">
+            <word pos="nn" translation="것" annotation="접속사:형용사절:that"> that </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="지금까지 일어날 수 있었다" annotation="시제:조동사완료"> could have ever happened </word>
+          </part>
+          <part role="adj">
+            <chunk pos="av" translation="나에게" annotation="전치사구:부사:대상">
+              <part role="trg">
+                <word pos="pp" translation="에게" annotation="전치사:to:대상"> to </word>
+              </part>
+              <part role="obj">
+                <word pos="nn" translation="나"> me </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>

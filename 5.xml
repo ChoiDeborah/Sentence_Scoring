@@ -1,0 +1,60 @@
+<!-- I am honored to be with you today at your commencement from one of the finest universities in the world. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="나는"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)이다" annotation="be동사:상태"> am </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="영광인" annotation="과거분사:형용사"> honored </word>
+    <chunk pos="av" translation="여러분과 함께인 것에" annotation="to부정사:부사:이유">
+      <part role="trg">
+        <word pos="pp" translation="것에"> to </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(상태)이다" annotation="be동사:상태"> be </word>
+      </part>
+      <part role="cpm">
+        <chunk pos="aj" translation="여러분과 함께인" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="함께" annotation="전치사:with"> with </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="여러분과"> you </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="adj">
+    <word pos="av" translation="오늘"> today </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="여러분의 졸업식에, 세상에서 가장 훌륭한 대학 중 하나로부터의" annotation="전치사구:부사:대상">
+      <part role="trg">
+        <word pos="pp" translation="에" annotation="전치사:at:대상"> at </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="여러분의 졸업식"> your commencement </word>
+        <chunk pos="aj" translation="가장 훌륭한 대학들 중의 하나로부터의" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="로부터" annotation="전치사:from"> from </word>
+          </part>
+          <part role="obj">
+            <word pos="aj" translation="중의 하나" annotation="수량형용사"> one of </word>
+            <word pos="nn" translation="가장 훌륭한 대학들" annotation="비교:최상급"> the finest universities </word>
+            <chunk pos="aj" translation="세계에서" annotation="전치사구:형용사">
+              <part role="trg">
+                <word pos="pp" translation="에서" annotation="전치사:in:장소"> in </word>
+              </part>
+              <part role="obj">
+                <word pos="nn" translation="세계"> the world. </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
