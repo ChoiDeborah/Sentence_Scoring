@@ -62,7 +62,7 @@ def scoring(node): #score of sentence #
     return score
 # 점수 확인
 for i in range(1, 8):
-    tree = parse(str(i)+".xml") #read a xml file
+    tree = parse("/Users/deborah/Desktop/Sentence_Scoring/sentences/"+str(i)+".xml") #read a xml file
     root = tree.getroot()       #get the sentence
     print(i)
     print(scoring(root)/18)     #print the score of sentence  #1-5 사이로 출력되도록하기위해 나눔
