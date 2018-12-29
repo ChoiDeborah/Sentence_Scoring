@@ -175,17 +175,12 @@
             <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
           </part>
           <part role="obj">
-            <word pos="nn" translation="낯선이"> a stranger </word>
+            <word pos="nn" translation="낯선이"> a stranger, </word>
           </part>
         </chunk>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation="">,</word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="당신은"> You </word>
   </part>
@@ -224,15 +219,10 @@
         <word pos="pp" translation="향한" annotation="전치사:to:대상"> to </word>
       </part>
       <part role="obj">
-        <word pos="nn" translation="푸른 보름달"> the blue corn moon </word>
+        <word pos="nn" translation="푸른 보름달"> the blue corn moon, </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation="">,</word>
-  </part>
-
 </sentence>
 
 
@@ -256,12 +246,9 @@
         <word pos="nn" translation="그가"> he </word>
       </part>
       <part role="obj">
-        <word pos="vb" translation="싱긋 웃었다"> grinnned </word>
+        <word pos="vb" translation="싱긋 웃었다"> grinnned? </word>
       </part>
     </chunk>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation="">?</word>
   </part>
 </sentence>
 
@@ -289,14 +276,11 @@
             <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
           </part>
           <part role="obj">
-            <word pos="nn" translation="산"> the mountains </word>
+            <word pos="nn" translation="산"> the mountains? </word>
           </part>
         </chunk>
       </part>
     </chunk>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation="">?</word>
   </part>
 </sentence>
 
@@ -324,14 +308,11 @@
             <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
           </part>
           <part role="obj">
-            <word pos="nn" translation="바람"> the wind </word>
+            <word pos="nn" translation="바람"> the wind? </word>
           </part>
         </chunk>
       </part>
     </chunk>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation="">?</word>
   </part>
 </sentence>
 
@@ -533,10 +514,7 @@
     <word pos="nn" translation="단풍나무가"> the sycamore </word>
   </part>
   <part role="prd">
-    <word pos="vb" translation="자라다"> grow </word>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation="">?</word>
+    <word pos="vb" translation="자라다"> grow? </word>
   </part>
 </sentence>
 
@@ -558,15 +536,10 @@
         <word pos="nn" translation="그것을"> it </word>
       </part>
       <part role="adj">
-        <word pos="av" translation="아래로"> down </word>
+        <word pos="av" translation="아래로"> down, </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation="">,</word>
-  </part>
-
   <part role="lnk">
     <word pos="cj" translation="그러면"> then </word>
   </part>
@@ -718,11 +691,9 @@
   <part role="obj">
     <word pos="nn" translation="대지를"> the Earth </word>
   </part>
-
   <part role="lnk">
     <word pos="cj" translation="그리고 더욱이"> and still </word>
   </part>
-
   <part role="sbj">
     <word pos="nn" translation="모든 것은" annotation="대명사:부정:all"> all </word>
     <chunk pos="aj" translation="당신이 가질 수 있는" annotation="형용사절:접속사생략">

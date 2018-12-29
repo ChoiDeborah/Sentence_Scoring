@@ -19,11 +19,9 @@
       </part>
     </chunk>
   </part>
-
   <part role="ptc">
     <word pos="pt" translation=""> ; </word>
   </part>
-
   <part role="sbj">
     <word pos="nn" translation="낙관주의자는"> The optimist </word>
   </part>
@@ -33,11 +31,9 @@
   <part role="obj">
     <word pos="nn" translation="비행기를"> the aeroplane </word>
   </part>
-
   <part role="ptc">
     <word pos="pt" translation=""> , </word>
   </part>
-
   <part role="sbj">
     <word pos="nn" translation="비관주의자는"> the pessimist </word>
   </part>
@@ -62,11 +58,9 @@
       </part>
     </chunk>
   </part>
-
   <part role="ptc">
     <word pos="pt" translation=""> ; </word>
   </part>
-
   <part role="prd">
     <word pos="vb" translation="만들라"> create </word>
   </part>
@@ -87,7 +81,6 @@
   <part role="obj">
     <word pos="nn" translation="노는 것" annotation="동명사"> playing </word>
   </part>
-
   <part role="adj">
     <chunk pos="av" translation="우리가 나이들어가기 때문에" annotation="부사절:이유">
       <part role="trg">
@@ -104,11 +97,9 @@
       </part>
     </chunk>
   </part>
-
   <part role="ptc">
     <word pos="pt" translation=""> ; </word>
   </part>
-
   <part role="sbj">
     <word pos="nn" translation="우리는"> we </word>
   </part>
@@ -208,11 +199,9 @@
       </part>
     </chunk>
   </part>
-
   <part role="ptc">
     <word pos="pt" translation=""> ; </word>
   </part>
-
   <part role="prd">
     <word pos="vb" translation="새겨라"> Write </word>
   </part>
@@ -253,11 +242,9 @@
       </part>
     </chunk>
   </part>
-
   <part role="ptc">
     <word pos="pt" translation=""> ; </word>
   </part>
-
   <part role="sbj">
     <word pos="nn" translation="비이성적인 사람은"> the unreasonable one </word>
   </part>
@@ -411,15 +398,12 @@
   <part role="cpm">
     <word pos="aj" translation="행복한"> happy </word>
   </part>
-
   <part role="ptc">
     <word pos="pt" translation=""> , </word>
   </part>
-
   <part role="lnk">
     <word pos="cj" translation="하지만"> but </word>
   </part>
-
   <part role="prd">
     <word pos="vb" translation="(상태)로 만들 것이다"> will make </word>
   </part>
@@ -493,11 +477,9 @@
       </part>
     </chunk>
   </part>
-
   <part role="lnk">
     <word pos="cj" translation="그렇지 않으면"> or </word>
   </part>
-
   <part role="sbj">
     <word pos="nn" translation="너는"> you </word>
   </part>
@@ -591,7 +573,6 @@
     <word pos="aj" translation="현명한"> wise </word>
   </part>
   <part role="adj">
-
     <chunk pos="av" translation="우리 과거의 기억에 의해서가 아니라" annotation="전치사구:부사:이유">
       <part role="trg">
         <word pos="pp" translation="의해서가 아니라" annotation="전치사:by"> not by</word>
@@ -608,9 +589,7 @@
         </chunk>
       </part>
     </chunk>
-
     <word pos="cj" translation="반면에"> but </word>
-
     <chunk pos="av" translation="우리 미래에 대한 책임에 의해서" annotation="전치사구:부사">
       <part role="trg">
         <word pos="pp" translation="의해서" annotation="전치사:by"> by </word>

@@ -181,15 +181,12 @@
       </part>
     </chunk>
   </part>
-
   <part role="ptc">
     <word pos="pt" translation=""> , </word>
   </part>
-
   <part role="lnk">
     <word pos="cj" translation="하지만"> but </word>
   </part>
-
   <part role="sbj">
     <word pos="aj" translation="몇몇의" annotation="수량형용사"> some of </word>
     <word pos="nn" translation="우리는"> us </word>
@@ -287,11 +284,9 @@
       </part>
     </chunk>
   </part>
-
   <part role="ptc">
     <word pos="pt" translation=""> ; </word>
   </part>
-
   <part role="sbj">
     <word pos="nn" translation="이기심은"> Selfishness </word>
   </part>
@@ -376,9 +371,7 @@
         <word pos="nn" translation="모든 것"> everything, </word>
       </part>
     </chunk>
-
     <word pos="pp" translation="반면에"> but </word>
-
     <chunk pos="aj" translation="당신이 가지고 있는 모든 것에 만족하는 것 관한" annotation="전치사구:형용사">
       <part role="trg">
         <word pos="pp" translation="관한" annotation="전치사:in:주제"> in </word>
@@ -413,9 +406,7 @@
               </part>
             </chunk>
           </part>
-          <part role="">
-          </part>
-        </chunk>
+         </chunk>
       </part>
     </chunk>
   </part>

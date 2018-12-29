@@ -1,4 +1,5 @@
 from xml.etree.ElementTree import parse
+import xml.etree.ElementTree as ET
 
 #---------------------------------------------
 def depth_weight(depth):
@@ -47,22 +48,74 @@ def chunk_score(chunk, depth):
 
 
     if  (pos == "nn"): score *= 1.4 #noun
-    elif(pos == "aj"): score *= 1.2 #adjective
+    if(pos == "aj"): score *= 1.2 #adjective
     elif(pos == "av"): score *= 1   #adverb
-    
+
     return score
     
 #---------------------------------------------    
 def scoring(node): #score of sentence #
+
     score = 0
-    
+
     for part in node.findall("part"):
         score += part_score(part, 1)
     
     return score
-# 점수 확인
-for i in range(1, 8):
-    tree = parse("/Users/deborah/Desktop/Sentence_Scoring/sentences/"+str(i)+".xml") #read a xml file
-    root = tree.getroot()       #get the sentence
+
+# 점수
+#for i in range(1, 8):
+#    tree = parse("/Users/deborah/Desktop/Sentence_Scoring/sentences/"+str(i)+".xml") #read a xml file
+#    root = tree.getroot()       #get the sentence
+#    print(i)
+#    print(scoring(root)/18)     #print the score of sentence  #1-5 사이로 출력되도록하기위해 나눔
+
+
+path = "/Users/deborah/Desktop/dJangoXMLParser/example/Example_Sentences_181216.xml"
+global count
+global totalCount
+totalCount = 0
+
+def Load_XML(pathName):
+    f = open(pathName, 'r')
+    string = ""
+    isline = False
+
+    count = 0
+
+    while True:
+        line = f.readline()
+        if not line:
+            if not isline:
+                break
+
+        if not line == '\n' and not line[:4] == '<!--' and not line == '':
+            string += line
+            isline = True
+        else:
+            if isline:
+                isline = False
+
+        if not isline and not string == "":
+            root = ET.fromstring(string)
+            print(count + 1)
+            #print(root.tag)
+            string = ""
+            count += 1
+
+            print(scoring(root)/18)     #print the score of sentence  #1-5 사이로 출력되도록하기위해 나눔
+            isline = False
+
+    f.close()
+    return count
+
+
+
+for i in range(1, 13):
+
     print(i)
-    print(scoring(root)/18)     #print the score of sentence  #1-5 사이로 출력되도록하기위해 나눔
+    totalCount += Load_XML("/Users/deborah/Desktop/Sentence_Scoring/xml/"+str(i)+".xml")
+
+    print(totalCount)
+
+

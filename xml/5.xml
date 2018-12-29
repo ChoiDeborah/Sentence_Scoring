@@ -120,8 +120,6 @@
 			</part>
 		</chunk>
 	</part>
-
-
 </sentence>
 
 
@@ -188,6 +186,7 @@
 							<part role="obj">
 								<word pos="nn" translation="문제들을"> them. </word>
 							</part>
+						</chunk>
 					</part>
 				</chunk>
 			</part>
@@ -334,7 +333,6 @@
 			</part>
 		</chunk>
 	</part>
-
 	<part role="sbj">
 		<word pos="nn" translation="물고기는"> it </word>
 	</part>

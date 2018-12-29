@@ -36,7 +36,7 @@
                 <word pos="nn" translation="그들이"> they </word>
               </part>
               <part role="prd">
-                <word pos="vb" translation="원하다"> want </word>
+                <word pos="vb" translation="원하다"> want. </word>
               </part>
             </chunk>
           </part>
@@ -44,11 +44,6 @@
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> . </word>
-  </part>
-
   <part role="lnk">
     <word pos="cj" translation="하지만"> But </word>
   </part>
@@ -89,15 +84,10 @@
         <word pos="pp" translation="대해" annotation="전치사:about"> about </word>
       </part>
       <part role="obj">
-        <word pos="nn" translation="한 가지"> one thing </word>
+        <word pos="nn" translation="한 가지"> one thing. </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> . </word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="나는"> I </word>
   </part>
@@ -110,13 +100,9 @@
         <word pos="av" translation="언제" annotation="접속사:의문사+to"> when to </word>
       </part>
       <part role="prd">
-        <word pos="vb" translation="멈추다"> quit </word>
+        <word pos="vb" translation="멈추다"> quit! </word>
       </part>
     </chunk>
-  </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> ! </word>
   </part>
 </sentence>
 
@@ -144,15 +130,10 @@
         <word pos="nn" translation="나는"> I </word>
       </part>
       <part role="prd">
-        <word pos="vb" translation="소개해야 한다"> should introduce </word>
+        <word pos="vb" translation="소개해야 한다"> should introduce. </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> . </word>
-  </part>
-
   <part role="lnk">
     <word pos="cj" translation="하지만"> But </word>
   </part>
@@ -160,13 +141,8 @@
     <word pos="nn" translation="나는"> I </word>
   </part>
   <part role="prd">
-    <word pos="be" translation="하지 않을 것이다"> am not going to </word>
+    <word pos="be" translation="하지 않을 것이다"> am not going to, </word>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
   <part role="adj">
     <chunk pos="av" translation="왜냐하면 내가 신경쓰지 않기 때문에" annotation="부사절">
       <part role="trg">
@@ -239,17 +215,12 @@
             <word pos="vb" translation="원하다"> want </word>
           </part>
           <part role="obj">
-            <word pos="nn" translation="무엇을"> something </word>
+            <word pos="nn" translation="무엇을"> something. </word>
           </part>
         </chunk>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> . </word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="(가주어)" annotation="형식주어:it"> It </word>
   </part>
@@ -365,17 +336,12 @@
             <word pos="be" translation="(상태)일 수 없다" annotation="be동사:상태"> can't be </word>
           </part>
           <part role="cpm">
-            <word pos="aj" translation="빠른"> fast </word>
+            <word pos="aj" translation="빠른"> fast? </word>
           </part>
         </chunk>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> ? </word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="나는"> I </word>
   </part>
@@ -388,15 +354,10 @@
         <word pos="pp" translation="에서"> in </word>
       </part>
       <part role="obj">
-        <word pos="nn" translation="주토피아"> Zootopia </word>
+        <word pos="nn" translation="주토피아"> Zootopia, </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
   <part role="obj">
     <chunk pos="nn" translation="누구나 무엇이든 될 수 있다라고" annotation="명사절:접속사생략">
       <part role="sbj">
@@ -482,13 +443,9 @@
       <part role="prd">
         <word pos="md" translation="될 수 있다"> can </word>
         <word pos="cj" translation="그리고 "> and </word>
-        <word pos="be" translation="될 수 없다"> can't be </word>
+        <word pos="be" translation="될 수 없다"> can't be! </word>
       </part>
     </chunk>
-  </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> ! </word>
   </part>
 </sentence>
 
@@ -533,11 +490,9 @@
       </part>
     </chunk>
   </part>
-
   <part role="adj">
     <word pos="pt" translation=""> , </word>
   </part>
-
   <part role="sbj">
     <word pos="nn" translation="좋은 경찰은"> a good cop </word>
   </part>

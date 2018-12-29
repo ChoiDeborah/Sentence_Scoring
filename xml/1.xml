@@ -275,12 +275,9 @@
         <word pos="cj" translation="보면서" annotation="현재분사:부사"> looking </word>
       </part>
       <part role="adj">
-        <word pos="av" translation="앞으로"> forward </word>
+        <word pos="av" translation="앞으로"> forward;</word>
       </part>
     </chunk>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation=""> ; </word>
   </part>
   <part role="sbj">
     <word pos="nn" translation="너는"> You </word>
@@ -447,72 +444,6 @@
 </sentence>
 
 
-<!-- I am convinced that the only thing that kept me going was that I loved what I did. -->
-<sentence>
-  <part role="sbj">
-    <word pos="nn" translation="나는"> I </word>
-  </part>
-  <part role="prd">
-    <word pos="be" translation="(상태)이다" annotation="be동사:상태"> am </word>
-  </part>
-  <part role="cpm">
-    <word pos="aj" translation="납득된" annotation="과거분사:형용사"> convinced </word>
-  </part>
-  <part role="obj">
-    <chunk pos="nn" translation="나를 나아가도록 지속하는 유일한 것이 내가 했던 무엇인가를 내가 사랑했다는 사실이었다" annotation="명사절:사실">
-      <part role="trg">
-        <word pos="cj" translation="것" annotation="접속사:명사절:that"> that </word>
-      </part>
-      <part role="sbj">
-        <word pos="nn" translation="유일한 것"> the only thing </word>
-        <chunk pos="aj" translation="나를 나아가도록 지속하는" annotation="형용사절">
-          <part role="trg">
-            <word pos="nn" translation="것" annotation="접속사:형용사절:that"> that </word>
-          </part>
-          <part role="prd">
-            <word pos="vb" translation="(상태를) 지속했다"> kept </word>
-          </part>
-          <part role="obj">
-            <word pos="nn" translation="나를"> me </word>
-          </part>
-          <part role="cpm">
-            <word pos="aj" translation="나아가는" annotation="현재분사:형용사"> going </word>
-          </part>
-        </chunk>
-      </part>
-      <part role="prd">
-        <word pos="be" translation="(무엇)이었다" annotation="be동사:설명"> was </word>
-      </part>
-      <part role="cpm">
-        <chunk pos="nn" translation="내가 했던 무엇인가를 내가 사랑했다는 사실" annotation="명사절:사실">
-          <part role="trg">
-            <word pos="cj" translation="것" annotation="접속사:명사절:that"> that </word>
-          </part>
-          <part role="sbj">
-            <word pos="nn" translation="내가"> I </word>
-          </part>
-          <part role="prd">
-            <word pos="vb" translation="사랑했다"> loved </word>
-          </part>
-          <part role="obj">
-            <chunk pos="nn" translation="내가 했던 무엇인가를" annotation="명사절">
-              <part role="trg">
-                <word pos="nn" translation="무엇" annotation="접속사:명사절:what"> what </word>
-              </part>
-              <part role="sbj">
-                <word pos="nn" translation="내가"> I </word>
-              </part>
-              <part role="prd">
-                <word pos="vb" translation="했던"> did. </word>
-              </part>
-            </chunk>
-          </part>
-        </chunk>
-      </part>
-    </part>
-    </chunk>
-  </part>
-</sentence>
 
 
 <!-- Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. -->
@@ -656,10 +587,7 @@
     <word pos="be" translation="(상태)이다" annotation="be동사:상태"> is </word>
   </part>
   <part role="cpm">
-    <word pos="aj" translation="제한된" annotation="과거분사:형용사"> limited </word>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
+    <word pos="aj" translation="제한된" annotation="과거분사:형용사"> limited, </word>
   </part>
   <part role="lnk">
     <word pos="cj" translation="그래서"> so </word>
@@ -723,6 +651,74 @@
               </part>
               <part role="obj">
                 <word pos="nn" translation="대학"> colloge </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+
+<!-- I am convinced that the only thing that kept me going was that I loved what I did. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="나는"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)이다" annotation="be동사:상태"> am </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="납득된" annotation="과거분사:형용사"> convinced </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="나를 나아가도록 지속하는 유일한 것이 내가 했던 무엇인가를 내가 사랑했다는 사실이었다" annotation="명사절:사실">
+      <part role="trg">
+        <word pos="cj" translation="것" annotation="접속사:명사절:that"> that </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="유일한 것"> the only thing </word>
+        <chunk pos="aj" translation="나를 나아가도록 지속하는" annotation="형용사절">
+          <part role="trg">
+            <word pos="nn" translation="것" annotation="접속사:형용사절:that"> that </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="(상태를) 지속했다"> kept </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="나를"> me </word>
+          </part>
+          <part role="cpm">
+            <word pos="aj" translation="나아가는" annotation="현재분사:형용사"> going </word>
+          </part>
+        </chunk>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(무엇)이었다" annotation="be동사:설명"> was </word>
+      </part>
+      <part role="cpm">
+        <chunk pos="nn" translation="내가 했던 무엇인가를 내가 사랑했다는 사실" annotation="명사절:사실">
+          <part role="trg">
+            <word pos="cj" translation="것" annotation="접속사:명사절:that"> that </word>
+          </part>
+          <part role="sbj">
+            <word pos="nn" translation="내가"> I </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="사랑했다"> loved </word>
+          </part>
+          <part role="obj">
+            <chunk pos="nn" translation="내가 했던 무엇인가를" annotation="명사절">
+              <part role="trg">
+                <word pos="nn" translation="무엇" annotation="접속사:명사절:what"> what </word>
+              </part>
+              <part role="sbj">
+                <word pos="nn" translation="내가"> I </word>
+              </part>
+              <part role="prd">
+                <word pos="vb" translation="했던"> did. </word>
               </part>
             </chunk>
           </part>

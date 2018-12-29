@@ -1,7 +1,4 @@
-<!-- Isaiah 40:31
-Those who hope in the Lord will renew their strength. They will soar on wings like eagles.
-여호와를 의지하는 사람은 새 힘을 얻으며, 독수리가 하늘 높이 솟아오르듯 올라갈 수 있다. 그러한 사람은 뛰어도 지치지 않으며, 걸어도 피곤하지 않을 것이다.
-오직 여호와를 앙망하는 자는 새 힘을 얻으리니 독수리의 날개치며 올라감 같을 것이요 달음박질하여도 곤비치 아니하겠고 걸어가도 피곤치 아니하리로다. -->
+<!-- Isaiah 40:31 Those who hope in the Lord will renew their strength. They will soar on wings like eagles. 여호와를 의지하는 사람은 새 힘을 얻으며, 독수리가 하늘 높이 솟아오르듯 올라갈 수 있다. 그러한 사람은 뛰어도 지치지 않으며, 걸어도 피곤하지 않을 것이다. 오직 여호와를 앙망하는 자는 새 힘을 얻으리니 독수리의 날개치며 올라감 같을 것이요 달음박질하여도 곤비치 아니하겠고 걸어가도 피곤치 아니하리로다. -->
 <sentence>
   <part role="sbj">
     <word pos="nn" translation="사람은" annotation="대명사:인칭:those"> Those </word>
@@ -28,10 +25,7 @@ Those who hope in the Lord will renew their strength. They will soar on wings li
     <word pos="vb" translation="다시 새롭게 할 것이다"> will renew </word>
   </part>
   <part role="obj">
-    <word pos="nn" translation="그들의 힘을"> their strength </word>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation="">;</word>
+    <word pos="nn" translation="그들의 힘을"> their strength; </word>
   </part>
   <part role="sbj">
     <word pos="nn" translation="그들은"> They </word>
@@ -62,10 +56,7 @@ Those who hope in the Lord will renew their strength. They will soar on wings li
 </sentence>
 
 
-<!-- Joshua 1:9
-Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.
-힘을 내고 용기를 가져라. 내가 명령한 것을 기억하여라. 두려워하지 마라. 네가 가는 곳마다 네 하나님 여호와가 너와 함께할 것이다.
-내가 네게 명령한 것이 아니냐 강하고 담대하라 두려워하지 말며 놀라지 말라 네가 어디로 가든지 네 하나님 여호와가 너와 함께 하느니라 하시니라 -->
+<!-- Joshua 1:9 Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.힘을 내고 용기를 가져라. 내가 명령한 것을 기억하여라. 두려워하지 마라. 네가 가는 곳마다 네 하나님 여호와가 너와 함께할 것이다.내가 네게 명령한 것이 아니냐 강하고 담대하라 두려워하지 말며 놀라지 말라 네가 어디로 가든지 네 하나님 여호와가 너와 함께 하느니라 하시니라 -->
 <sentence>
   <part role="prd">
     <word pos="be" translation="(상태)이어라" annotation="be동사:상태"> Be </word>
@@ -73,19 +64,13 @@ Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord 
   <part role="cpm">
     <word pos="aj" translation="강한"> strong </word>
     <word pos="cj" translation="그리고"> and </word>
-    <word pos="aj" translation="용감한"> courageous </word>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation="">;</word>
+    <word pos="aj" translation="용감한"> courageous; </word>
   </part>
   <part role="prd">
     <word pos="be" translation="(상태)이지 말아라" annotation="be동사:상태"> Do not be </word>
   </part>
   <part role="cpm">
-    <word pos="aj" translation="두려운"> afraid </word>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation="">;</word>
+    <word pos="aj" translation="두려운"> afraid;</word>
   </part>
   <part role="prd">
     <word pos="be" translation="(상태)이지 말아라" annotation="be동사:상태"> Do not be </word>
@@ -129,12 +114,11 @@ Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord 
         </chunk>
       </part>
     </chunk>
+  </part>
 </sentence>
 
 
-<!-- Mark 9:23
-Everything is possible for him who believes.
-믿는 사람은 무엇이든지 할 수 있다. -->
+<!-- Mark 9:23 Everything is possible for him who believes. 믿는 사람은 무엇이든지 할 수 있다. -->
 <sentence>
   <part role="sbj">
     <word pos="nn" translation="모든 것은"> Everything </word>
@@ -164,9 +148,7 @@ Everything is possible for him who believes.
 </sentence>
 
 
-<!-- Philippians 4:13
-I can do all this through him who gives me strength.
-내게 능력 주시는 자 안에서 내가 모든 것을 할 수 있느니라 -->
+<!-- Philippians 4:13 I can do all this through him who gives me strength.내게 능력 주시는 자 안에서 내가 모든 것을 할 수 있느니라 -->
 <sentence>
   <part role="sbj">
     <word pos="nn" translation="나는"> I </word>
@@ -204,9 +186,7 @@ I can do all this through him who gives me strength.
 </sentence>
 
 
-<!-- John 3:16
-For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.
-하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 저를 믿는 자마다 멸망치 않고 영생을 얻게 하려 하심이니라. -->
+<!-- John 3:16For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 저를 믿는 자마다 멸망치 않고 영생을 얻게 하려 하심이니라. -->
 <sentence>
   <part role="adj">
     <chunk pos="av" translation="하나님이 세상을 너무 사랑해서, 그가 그의 오직 하나뿐인 아들을 주었기 때문에" annotation="전치사구:부사:이유">
@@ -271,9 +251,7 @@ For God so loved the world that he gave his one and only Son, that whoever belie
 </sentence>
 
 
-<!-- Hebrews 11:1
-Faith is confidence in what we hope for and assurance about what we do not see.
-믿음은 우리가 바라는 것들에 대해서 확신하는 것입니다. 또한 보이지는 않지만 그것이 사실임을 아는 것입니다. -->
+<!-- Hebrews 11:1Faith is confidence in what we hope for and assurance about what we do not see.믿음은 우리가 바라는 것들에 대해서 확신하는 것입니다. 또한 보이지는 않지만 그것이 사실임을 아는 것입니다. -->
 <sentence>
   <part role="sbj">
     <word pos="nn" translation="믿음은"> Faith </word>
@@ -325,9 +303,7 @@ Faith is confidence in what we hope for and assurance about what we do not see.
 </sentence>
 
 
-<!-- Corinthians 10:13
-No temptation has overtaken you except what is common to mankind.
-누구나 겪는 시험 이외에 여러분에게 닥칠 시험은 없습니다. -->
+<!-- Corinthians 10:13No temptation has overtaken you except what is common to mankind.누구나 겪는 시험 이외에 여러분에게 닥칠 시험은 없습니다. -->
 <sentence>
   <part role="sbj">
     <word pos="nn" translation="어떤 유혹도(아니다)"> No temptation </word>
@@ -369,13 +345,11 @@ No temptation has overtaken you except what is common to mankind.
 </sentence>
 
 
-<!-- And God is faithful; he will not let you be tempted beyond what you can bear.
-하나님은 신실한 분이셔서 여러분이 감당할 수 있는 능력 이상의 시험을 당하도록 내버려 두지 않으십니다. -->
+<!-- And God is faithful; he will not let you be tempted beyond what you can bear.하나님은 신실한 분이셔서 여러분이 감당할 수 있는 능력 이상의 시험을 당하도록 내버려 두지 않으십니다. -->
 <sentence>
   <part role="lnk">
     <word pos="cj" translation="그리고"> And </word>
   </part>
-
   <part role="sbj">
     <word pos="nn" translation="하나님은"> God </word>
   </part>
@@ -383,12 +357,8 @@ No temptation has overtaken you except what is common to mankind.
     <word pos="be" translation="(상태)이다" annotation="be동사:상태"> is </word>
   </part>
   <part role="cpm">
-    <word pos="aj" translation="신실한"> faithful </word>
+    <word pos="aj" translation="신실한"> faithful; </word>
   </part>
-  <part role="pct">
-    <word pos="pt" translation="">;</word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="그는"> he </word>
   </part>
@@ -429,8 +399,7 @@ No temptation has overtaken you except what is common to mankind.
 </sentence>
 
 
-<!-- But when you are tempted, he will also provide a way out so that you can endure it.
-그리고 여러분이 시험을 당할 때에 시험을 견디고 거기서 빠져 나올 수 있는 길을주십니다. -->
+<!-- But when you are tempted, he will also provide a way out so that you can endure it.그리고 여러분이 시험을 당할 때에 시험을 견디고 거기서 빠져 나올 수 있는 길을주십니다. -->
 <sentence>
   <part role="lnk">
     <word pos="cj" translation="하지만"> But </word>
@@ -479,9 +448,7 @@ No temptation has overtaken you except what is common to mankind.
 </sentence>
 
 
-<!-- Matthew 4:4
-Man does not live on bread alone, but on every word that comes from the mouth of God.
-예수께서 대답하여 이르시되 기록되었으되 사람이 떡으로만 살 것이 아니요 하나님의 입으로부터 나오는 모든 말씀으로 살 것이라 하였느니라 하시니 -->
+<!-- Matthew 4:4Man does not live on bread alone, but on every word that comes from the mouth of God.예수께서 대답하여 이르시되 기록되었으되 사람이 떡으로만 살 것이 아니요 하나님의 입으로부터 나오는 모든 말씀으로 살 것이라 하였느니라 하시니 -->
 <sentence>
   <part role="sbj">
     <word pos="nn" translation="사람은"> Man </word>
@@ -540,9 +507,7 @@ Man does not live on bread alone, but on every word that comes from the mouth of
 </sentence>
 
 
-<!-- Psalm 23:4
-Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.
-내가 사망의 음침한 골짜기로 다닐지라도 해를 두려워하지 않을 것은 주께서 나와 함께 하심이라 주의 지팡이와 막대기가 나를 안위하시나이다 -->
+<!-- Psalm 23:4Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.내가 사망의 음침한 골짜기로 다닐지라도 해를 두려워하지 않을 것은 주께서 나와 함께 하심이라 주의 지팡이와 막대기가 나를 안위하시나이다 -->
 <sentence>
   <part role="adj">
     <chunk pos="av" translation="비록 내가 가장 어두운 골짜기를 지나며 걷더라도" annotation="부사절">
@@ -593,14 +558,11 @@ Even though I walk through the darkest valley, I will fear no evil, for you are 
             <word pos="pp" translation="함께" annotation="전치사:with"> with </word>
           </part>
           <part role="obj">
-            <word pos="nn" translation="나를"> me </word>
+            <word pos="nn" translation="나를"> me; </word>
           </part>
         </chunk>
       </part>
     </chunk>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation="">;</word>
   </part>
   <part role="sbj">
     <word pos="nn" translation="당신의 막대기"> your rod </word>
@@ -617,9 +579,7 @@ Even though I walk through the darkest valley, I will fear no evil, for you are 
 </sentence>
 
 
-<!-- John 13:34
-A new command I give you: Love one another. As I have loved you, so you must love one another.
-새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라 -->
+<!-- John 13:34A new command I give you: Love one another. As I have loved you, so you must love one another.새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라 -->
 <sentence>
   <part role="obj">
     <word pos="nn" translation="새로운 계명을 " annotation="도치:목적어"> A new command </word>
@@ -631,10 +591,7 @@ A new command I give you: Love one another. As I have loved you, so you must lov
     <word pos="vb" translation="주다"> give </word>
   </part>
   <part role="obj">
-    <word pos="nn" translation="너에게"> you </word>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation="">;</word>
+    <word pos="nn" translation="너에게"> you; </word>
   </part>
   <part role="prd">
     <word pos="vb" translation="사랑하라"> Love </word>

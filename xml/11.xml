@@ -111,40 +111,6 @@
 </sentence>
 
 
-<!-- If I wear a mask, I can fool the world. -->
-<sentence>
-  <part role="adj">
-    <chunk pos="av" translation="만약 내가 가면을 쓰고 있다면" annotation="부사절:가정">
-      <part role="trg">
-        <word pos="cj" translation="만약" annotation="접속사:부사절:if"> If </word>
-      </part>
-      <part role="sbj">
-        <word pos="nn" translation="내가"> I </word>
-      </part>
-      <part role="prd">
-        <word pos="vb" translation="착용하다"> wear </word>
-      </part>
-      <part role="obj">
-        <word pos="nn" translation="가면"> a mask </word>
-      </part>
-    </chunk>
-  </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
-  <part role="sbj">
-    <word pos="nn" translation="나는"> I </word>
-  </part>
-  <part role="prd">
-    <word pos="vb" translation="속일 수 있다"> can fool </word>
-  </part>
-  <part role="obj">
-    <word pos="nn" translation="세상을"> the world.</word>
-  </part>
-</sentence>
-
 
 <!-- But I cannot fool my heart. -->
 <sentence>
@@ -197,14 +163,11 @@
             <word pos="pp" translation="향해" annotation="전치사:at"> at </word>
           </part>
           <part role="obj">
-            <word pos="nn" translation="나를"> me </word>
+            <word pos="nn" translation="나를"> me? </word>
           </part>
         </chunk>
       </part>
     </chunk>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation=""> ? </word>
   </part>
 </sentence>
 
@@ -235,12 +198,9 @@
         <word pos="be" translation="(상태)이다" annotation="be동사:상태"> am </word>
       </part>
       <part role="cpm">
-        <word pos="aj" translation="안에" annotation="전치사:inside"> inside </word>
+        <word pos="aj" translation="안에" annotation="전치사:inside"> inside? </word>
       </part>
     </chunk>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation=""> ? </word>
   </part>
 </sentence>
 
@@ -302,13 +262,8 @@
     <word pos="cj" translation="하지만"> But </word>
   </part>
   <part role="adj">
-    <word pos="av" translation="어쩐지"> somehow </word>
+    <word pos="av" translation="어쩐지"> somehow, </word>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="내가"> I </word>
   </part>
@@ -396,15 +351,10 @@
         <word pos="nn" translation="나는"> I </word>
       </part>
       <part role="prd">
-        <word pos="vb" translation="모른다"> don't know </word>
+        <word pos="vb" translation="모른다"> don't know?</word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> ? </word>
-  </part>
-
 </sentence>
 
 
@@ -414,7 +364,6 @@
     <word pos="md" translation="해야만 하는가"> Must </word>
   </part>
   <part role="sbj">
-
     <word pos="nn" translation="나는"> I </word>
   </part>
   <part role="prd">
@@ -440,16 +389,12 @@
             <word pos="pp" translation="동안" annotation="전치사:for:시간"> for </word>
           </part>
           <part role="obj">
-            <word pos="nn" translation="모든 시간"> all time </word>
+            <word pos="nn" translation="모든 시간"> all time?</word>
           </part>
         </chunk>
       </part>
     </chunk>
   </part>
-  <part role="pct">
-    <word pos="pt" translation=""> ? </word>
-  </part>
-
 </sentence>
 
 
@@ -553,12 +498,9 @@
         <word pos="nn" translation="우리가"> we </word>
       </part>
       <part role="prd">
-        <word pos="vb" translation="느끼다"> feel </word>
+        <word pos="vb" translation="느끼다"> feel? </word>
       </part>
     </chunk>
-  </part>
-  <part role="pct">
-    <word pos="pt" translation=""> ? </word>
   </part>
 </sentence>
 
@@ -590,13 +532,40 @@
             <word pos="pp" translation="기에"> to </word>
           </part>
           <part role="obj">
-            <word pos="vb" translation="숨기다"> hide </word>
+            <word pos="vb" translation="숨기다"> hide? </word>
           </part>
         </chunk>
       </part>
     </chunk>
   </part>
-  <part role="pct">
-    <word pos="pt" translation=""> ? </word>
+</sentence>
+
+
+<!-- If I wear a mask, I can fool the world. -->
+<sentence>
+  <part role="adj">
+    <chunk pos="av" translation="만약 내가 가면을 쓰고 있다면" annotation="부사절:가정">
+      <part role="trg">
+        <word pos="cj" translation="만약" annotation="접속사:부사절:if"> If </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="내가"> I </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="착용하다"> wear </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="가면"> a mask, </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="나는"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="속일 수 있다"> can fool </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="세상을"> the world.</word>
   </part>
 </sentence>

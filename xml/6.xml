@@ -1,59 +1,4 @@
-<!-- Mama told me that miracles happen everyday. Some people do not think so, but they do. -->
-<sentence>
-  <part role="sbj">
-    <word pos="nn" translation="엄마는"> Mama </word>
-  </part>
-  <part role="prd">
-    <word pos="vb" translation="말했다"> told </word>
-  </part>
-  <part role="obj">
-    <word pos="nn" translation="나에게"> me </word>
-  </part>
-  <part role="obj">
-    <chunk pos="nn" translation="기적은 매일 일어난다라고" annotation="명사절:사실">
-      <part role="trg">
-        <word pos="cj" translation="라고" annotation="접속사:명사절:that"> that </word>
-      </part>
-      <part role="sbj">
-        <word pos="nn" translation="기적은"> miracles </word>
-      </part>
-      <part role="prd">
-        <word pos="vb" translation="일어나다"> happen </word>
-      </part>
-      <part role="adj">
-        <word pos="av" translation="매일"> everyday </word>
-      </part>
-    </chunk>
-  </part>
 
-  <part role="pct">
-    <word pos="pt" translation=""> . </word>
-  </part>
-
-  <part role="sbj">
-    <word pos="nn" translation="어떤 사람은"> Some people </word>
-  </part>
-  <part role="prd">
-    <word pos="vb" translation="생각하지 않다"> don't think </word>
-  </part>
-  <part role="obj">
-    <word pos="av" translation="그렇게" annotation="so용법"> so </word>
-  </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
-  <part role="lnk">
-    <word pos="cj" translation="하지만"> but </word>
-  </part>
-  <part role="sbj">
-    <word pos="nn" translation="그것들은"> they </word>
-  </part>
-  <part role="prd">
-    <word pos="vb" translation="일어난다" annotation="대동사"> do. </word>
-  </part>
-</sentence>
 
 
 <!-- You have to do the best with what God gave you. -->
@@ -195,15 +140,10 @@
       </part>
       <part role="obj">
         <word pos="aj" translation="한 상자의" annotation="수량형용사"> a box of </word>
-        <word pos="nn" translation="초콜렛"> chocolate </word>
+        <word pos="nn" translation="초콜렛"> chocolate. </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> . </word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="너는"> You </word>
   </part>
@@ -237,15 +177,9 @@
   <part role="cpm">
     <word pos="nn" translation="똑똑한 사람"> a smart man </word>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
   <part role="lnk">
     <word pos="cj" translation="하지만"> but </word>
   </part>
-
   <part role="sbj">
     <word pos="nn" translation="나는"> I </word>
   </part>
@@ -288,11 +222,7 @@
     </chunk>
   </part>
   <part role="adj">
-    <word pos="av" translation="또한"> too </word>
-  </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> ? </word>
+    <word pos="av" translation="또한"> too? </word>
   </part>
 </sentence>
 
@@ -312,15 +242,10 @@
         <word pos="pp" translation="에서" annotation="전치사:in"> in </word>
       </part>
       <part role="obj">
-        <word pos="nn" translation="이 군대"> this army </word>
+        <word pos="nn" translation="이 군대"> this army? </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> ? </word>
-  </part>
-
   <part role="obj">
     <chunk pos="nn" translation="당신이 나에게 말하는 무엇이든 하는 것" annotation="to부정사:명사">
       <part role="trg">
@@ -341,17 +266,12 @@
             <word pos="vb" translation="말하다"> tell </word>
           </part>
           <part role="obj">
-            <word pos="nn" translation="나에게"> me </word>
+            <word pos="nn" translation="나에게"> me, </word>
           </part>
         </chunk>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
   <part role="obj">
     <word pos="nn" translation="훈련 교관님"> Drill Sergeant. </word>
   </part>
@@ -373,15 +293,10 @@
         <word pos="nn" translation="내가"> I </word>
       </part>
       <part role="prd">
-        <word pos="vb" translation="여태껏 들어보았다" annotation="시제:현재완료"> have ever heard </word>
+        <word pos="vb" translation="여태껏 들어보았다" annotation="시제:현재완료"> have ever heard. </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> . </word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="너는"> You </word>
   </part>
@@ -434,17 +349,12 @@
             <word pos="pp" translation="위해"> to </word>
           </part>
           <part role="prd">
-            <word pos="vb" translation="잠자다"> sleep </word>
+            <word pos="vb" translation="잠자다"> sleep, </word>
           </part>
         </chunk>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
   <part role="prd">
     <word pos="be" translation="(상태)여왔다" annotation="시제:현재완료"> has been </word>
   </part>
@@ -485,15 +395,10 @@
         <word pos="pp" translation="처럼" annotation="전치사:as:비교"> as </word>
       </part>
       <part role="obj">
-        <word pos="nn" translation="여느 누구나"> everybody else </word>
+        <word pos="nn" translation="여느 누구나"> everybody else. </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> . </word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="너는"> You </word>
   </part>
@@ -562,15 +467,10 @@
         <word pos="pp" translation="때문에" annotation="전치사:for:이유"> For </word>
       </part>
       <part role="obj">
-        <word pos="nn" translation="특정한 이유 아닌"> no particular reason </word>
+        <word pos="nn" translation="특정한 이유 아닌"> no particular reason, </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="나는"> I </word>
   </part>
@@ -636,15 +536,10 @@
         <word pos="pp" translation="에서" annotation="전치사:in:장소"> In </word>
       </part>
       <part role="obj">
-        <word pos="nn" translation="사막"> the desert </word>
+        <word pos="nn" translation="사막"> the desert, </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
   <part role="adj">
     <chunk pos="av" translation="태양이 떠오를 때" annotation="부사절:시간">
       <part role="trg">
@@ -654,15 +549,10 @@
         <word pos="nn" translation="태양이"> the sun </word>
       </part>
       <part role="prd">
-        <word pos="vb" translation="떠오르다"> comes up </word>
+        <word pos="vb" translation="떠오르다"> comes up, </word>
       </part>
     </chunk>
   </part>
-
-  <part role="pct">
-    <word pos="pt" translation=""> , </word>
-  </part>
-
   <part role="sbj">
     <word pos="nn" translation="나는"> I </word>
   </part>
@@ -680,11 +570,9 @@
       <part role="obj">
         <word pos="vb" translation="끝나다"> stopped </word>
       </part>
-
       <part role="lnk">
         <word pos="cj" translation="그리고"> and </word>
       </part>
-
       <part role="prd">
         <word pos="nn" translation="이승"> the earth </word>
       </part>
@@ -758,5 +646,53 @@
         </chunk>
       </part>
     </chunk>
+  </part>
+</sentence>
+
+
+<!-- Mama told me that miracles happen everyday. Some people do not think so, but they do. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="엄마는"> Mama </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="말했다"> told </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="나에게"> me </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="기적은 매일 일어난다라고" annotation="명사절:사실">
+      <part role="trg">
+        <word pos="cj" translation="라고" annotation="접속사:명사절:that"> that </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="기적은"> miracles </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="일어나다"> happen </word>
+      </part>
+      <part role="adj">
+        <word pos="av" translation="매일"> everyday. </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="어떤 사람은"> Some people </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="생각하지 않다"> don't think </word>
+  </part>
+  <part role="obj">
+    <word pos="av" translation="그렇게" annotation="so용법"> so, </word>
+  </part>
+  <part role="lnk">
+    <word pos="cj" translation="하지만"> but </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="그것들은"> they </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="일어난다" annotation="대동사"> do. </word>
   </part>
 </sentence>
