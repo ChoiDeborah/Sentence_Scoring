@@ -1,78 +1,86 @@
 import xml.etree.ElementTree as ET
 
 
-def part_search(part, depth, posNN):
+def part_search(part, depth, tempRole):
 
+    wordText    = False
+    chunkText   = False
+
+    isWordPos = False
+    isChunkPos = False
 
     role = part.get("role")
-    haveToSearch = False
-
-    if posNN:
-        if role == "trg":
-            haveToSearch = True
-
-
-
-    wordText = False
-    chunkText = False
 
 
     wordPosType = 0
     sentenceType = 0
 
-    for word in part.findall("word"):
-        wordText = True
-        wordPos = word.get("pos")
+    if (tempRole == 'sbj'):
+        for word in part.findall("word"):
+            wordText = True
+            wordPos = word.get("pos")
+            if (wordPos == 'nn'):
+                isWordPos = True
+                break
 
-        if wordPos =='nn':
-            wordPosType = 1
+        for chunk in part.findall("chunk"):
 
-        if haveToSearch:
-            temp = word.text
-            if temp == ' to ':
-                sentenceType = 1
+            chunkText = True
+
+            chunkPos = chunk.get("pos")
+            if (chunkPos == 'aj'):
+                isChunkPos = True
+                if chunk_search(chunk, depth, "trg"):
+                    return True
+
+    if(tempRole == 'trg'):
+        for word in part.findall("word"):
+            wordPos = word.get("pos")
+            if (wordPos == 'pp'):
+                return True
 
 
 
-    for chunk in part.findall("chunk"):
-        chunkText = True
-        if wordText:
-            wordText = False
-            if wordPosType == 1:
-                wordPosType = 0;
-                chunk_search(chunk, depth, wordPosType)
-
-        chunkPos = chunk.get("pos")
 
 
     return sentenceType
 
 
 # ---------------------------------------------
-def searching(node):
+def searching(node, type):
 
     result = False
+    role = ''
+
+    if type == 0:
+        role = 'sbj'
 
     for part in node.findall("part"):
-        role = part.get("role")
-        result = part_search(part, 1, 0)
+        if(result):return True
+        result = part_search(part, 1, role)
 
     return result
 
 
 # ---------------------------------------------
-def chunk_search(chunk, depth, SentenceType):
+def chunk_search(chunk, depth, role):
+    result = 0
 
     for part in chunk.findall("part"):
-        part_search(part, depth+1, SentenceType)
+        if(result):
+            return True
+        tempRole = part.get("role")
+        if(tempRole == role ):
+            result = part_search(part, depth+1, role)
 
-
+    return result
 
 path = "/Users/deborah/Desktop/dJangoXMLParser/example/Example_Sentences_181216.xml"
 global count
 global totalCount
 totalCount = 0
 
+TypeOfSentence = 0
 
 def Load_XML(pathName):
     f = open(pathName, 'r')
@@ -97,13 +105,19 @@ def Load_XML(pathName):
         if not isline and not string == "":
             root = ET.fromstring(string)
             print(count + 1)
-            string = ""
+
             count += 1
-            if searching(root):
-                print(root)
+            if searching(root, 0):
+                #reslist = list(root.iter())
+                #result = ' '.join([element.text for element in reslist])
+                #print(result)
+                print(string)
+
+            else:
+                print("FALSE")
 
             isline = False
-
+            string = ""
     f.close()
     return count
 
