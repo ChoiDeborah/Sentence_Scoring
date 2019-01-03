@@ -11,7 +11,7 @@ def part_score(part, depth): #파트는 청크로나뉨
     
     score = 0
     
-    wordext = False;
+    wordext = False
     #파트안의 워드유무 변수
     
     #word in part
@@ -33,23 +33,79 @@ def part_score(part, depth): #파트는 청크로나뉨
 
 #파트가 주어일때 1.2를 곱함
 
+#---------------------------------------------
+
+def part_search(part, depth, posNN):
+
+    isTo = False
+    wordText = False
+
+    chunkText = False
+
+
+    for word in part.findall("word"):
+        pos = word.get("pos")
+
+        if not posNN:
+            if pos == "nn":
+                posNN = True
+
+
+
+    for chunk in part.findall("chunk"):
+        #wordText = False
+        chunkText = True
+        if posNN:
+            isTo = chunk_search(chunk, depth, chunkText)
+
+    return isTo and wordText and chunkText
+
+
+
+#---------------------------------------------
+def searching(node):
+    isTo = False
+
+    for part in node.findall("part"):
+        role = part.get("role")
+
+
+        part_search(part, 1, isTo)
+
+    return isTo
+
+
+
+
+#---------------------------------------------
+def chunk_search(chunk, depth, chunkText):
+
+        isTo = False
+        for part in chunk.findall("part"):
+            isTo = part_search(part, depth+1, chunkText)
+
+
+        return isTo
+
+
+
     
 #---------------------------------------------
-def chunk_score(chunk, depth): 
-    
+def chunk_score(chunk, depth):
     score = 0
-    
-    #part in chunk    
+
+    # part in chunk
     for part in chunk.findall("part"):
-        score += part_score(part, depth+1)
+        score += part_score(part, depth + 1)
     # 청크는 파트로만 나뉘기 때문에 파트점수만 더해준다.
 
-    pos = chunk.get("pos") #pos(part of speech) of chunk
+    pos = chunk.get("pos")  # pos(part of speech) of chunk
 
-
-    if  (pos == "nn"): score *= 1.4 #noun
-    if(pos == "aj"): score *= 1.2 #adjective
-    elif(pos == "av"): score *= 1   #adverb
+    if (pos == "nn"): score *= 1.4  # noun
+    if (pos == "aj"):
+        score *= 1.2  # adjective
+    elif (pos == "av"):
+        score *= 1  # adverb
 
     return score
     
@@ -102,8 +158,9 @@ def Load_XML(pathName):
             #print(root.tag)
             string = ""
             count += 1
-
-            print(scoring(root)/18)     #print the score of sentence  #1-5 사이로 출력되도록하기위해 나눔
+            if(searching(root)):
+                print(root)
+            #print(scoring(root)/18)     #print the score of sentence  #1-5 사이로 출력되도록하기위해 나눔
             isline = False
 
     f.close()

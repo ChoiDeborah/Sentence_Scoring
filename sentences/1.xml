@@ -1,73 +1,30 @@
-<!-- 09. If you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid. -->
+<!-- And then a hero comes along with the strength to carry on. -->
 <sentence>
-	<part role="adj">
-		<chunk pos="av" translation="만약 너가 물고기를 판단한다면 나무를 오르는 능력에 의해서," annotation="부사절:가정">
-			<part role="trg">
-				<word pos="cj" translation="만약" annotation="접속사:부사절:if"> If </word>
-			</part>
-			<part role="sbj">
-				<word pos="nn" translation="너가"> you </word>
-			</part>
-			<part role="prd">
-				<word pos="vb" translation="판단하다"> judge </word>
-			</part>
-			<part role="obj">
-				<word pos="nn" translation="물고기를"> a fish </word>
-			</part>
-			<part role="adj">
-				<chunk pos="av" translation="나무를 오르는 능력에 의해서" annotation="전치사구:부사:수단">
-					<part role="trg">
-						<word pos="pp" translation="의해서" annotation="전치사:by:수단"> by </word>
-					</part>
-					<part role="obj">
-						<word pos="nn" translation="그것의 능력"> its ability </word>
-						<chunk pos="aj" translation="나무를 오르기 위한" annotation="to부정사구:형용사">
-							<part role="trg">
-								<word pos="pp" translation="위한"> to </word>
-							</part>
-							<part role="prd">
-								<word pos="vb" translation="오르다"> climb </word>
-							</part>
-							<part role="obj">
-								<word pos="nn" translation="나무를"> a tree </word>
-							</part>
-						</chunk>
-					</part>
-				</chunk>
-			</part>
-		</chunk>
-	</part>
-
-	<part role="sbj">
-		<word pos="nn" translation="물고기는"> it </word>
-	</part>
-	<part role="prd">
-		<word pos="vb" translation="살아갈 것이다"> will live </word>
-	</part>
-	<part role="obj">
-		<word pos="nn" translation="물고기의 평생의 삶을"> its whole life </word>
-	</part>
-	<part role="adj">
-		<chunk pos="av" translation="물고기는 어리석다는 사실을 믿으면서" annotation="현재분사구:부사:상황">
-			<part role="trg">
-				<word pos="cj" translation="믿으면서" annotation="현재분사:부사"> believing </word>
-			</part>
-			<part role="obj">
-				<chunk pos="nn" translation="물고기는 어리석다는 사실" annotation="명사절:사실">
-					<part role="trg">
-						<word pos="cj" translation="사실" annotation="접속사:명사절:that"> that </word>
-					</part>
-					<part role="sbj">
-						<word pos="nn" translation="물고기는"> it </word>
-					</part>
-					<part role="prd">
-						<word pos="be" translation="(상태)이다" annotation="be동사:상태"> is </word>
-					</part>
-					<part role="cpm">
-						<word pos="aj" translation="어리석은"> stupid. </word>
-					</part>
-				</chunk>
-			</part>
-		</chunk>
-	</part>
+  <part role="lnk">
+    <word pos="cj" translation="그리고서는"> And then </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="영웅이"> a hero </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="나타난다" annotation="구동사"> comes along </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="살아나기기 위한 힘과 함께" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="함께" annotation="전치사:with"> with </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="힘"> the strength </word>
+        <chunk pos="aj" translation="살아나가기 위한" annotation="to부정사:형용사">
+          <part role="trg">
+            <word pos="pp" translation="위한"> to </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="살아나가다"> carry on </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
 </sentence>
