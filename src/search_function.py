@@ -38,7 +38,8 @@ def parse_String_To_XML(string , count):    # string -> XML
     
     root = ET.fromstring(string)            # string을 root에 넣고 파싱한다
     count += 1                              # 문장 수 + 1 
-    if searching(root, "BE-110"):
+    if searching(root, "BE-120"):
+        print("BE-120\n")
         print(string)
     else :
         print("False\n")    
@@ -66,24 +67,39 @@ def searching(node , type):
             if not result :                                 #result 가 False 일 때
                 role = "prd"
                 pos = "be" 
-                result = part_search(part, role, pos, 1)
+                result = part_search(part, role, pos, 1, False, type)
               
             else:                                           #result가 True 가 되면 
                 result = False
                 role = "cpm"
                 pos = "nn"
-                result = part_search(part, role, pos, 1)
+                result = part_search(part, role, pos, 1, False, type)
                 if result:
                     return True
                     
 
-    #elif type == "BE-120":
-    #    for part in node.findall("part"):
-    #        result = part_search(part, "cpm","nn", 1)
+    if type == "BE-120":
+        for part in node.findall("part"):
+            if not result :
+                role = "cpm"
+                pos = "nn"
+                result = part_search(part, role, pos, 1, True, type)  # çhunk가 존재하는 경우
+                if result:
+                    return True
 
-    #elif type == "VB-100":
-    #   for part in node.findall("part"):
-    #        result = part_search(part, "prd", "vb", 1)
+    if type == "VB-100":
+        for part in node.findall("part"):
+            if not result:
+                result = part_search(part, "prd", "vb", 1, False,type)
+            else:
+                result = False
+                result = part_search(part, "obj","nn", 1, True,type)
+                if result:
+                    return True
+
+
+
+
                 
 
     #for part in node.findall("part"):
@@ -93,17 +109,34 @@ def searching(node , type):
 
 # ----------------------------------------
 
-def part_search(part, role_keyword, pos_keyword, depth):
+def part_search(part, role_keyword, pos_keyword, depth, isChunk, type):
     result = False
 
-    role = part.get("role")
-    #if 파트의 롤과 매개변수로 받은 롤을 비교
-    if(role == role_keyword):
-        for word in part.findall("word"):
-            pos = word.get("pos")
-            if pos == pos_keyword:
-                return True
-        # 같으면 word의 pos 비교
+    role = part.get("role")                     # if 파트의 롤과 매개변수로 받은 롤을 비교
+    
+    if not isChunk:                             # word 비교 시 
+        if(role == role_keyword):
+            for word in part.findall("word"):
+                pos = word.get("pos")
+                if pos == pos_keyword:          # 같으면 word의 pos 비교
+                    return True
+
+    else:                                       # Chunk 비교 시
+        if(role == role_keyword):
+            for chunk in part.findall("chunk"):
+                pos = chunk.get("pos")
+                if pos == pos_keyword:
+                    if(type == "BE-120"):
+                        role_keyword = "trg"
+                        pos_keyword = "pp"
+                    if(type == "VB-100"):
+                        role_keyword = "trg"
+                        pos_keyword = "cj"    
+                    result = chunk_search(chunk, depth, role_keyword, pos_keyword, type)
+                    if result:
+                        return True
+
+
 
 
     #for word in part.findall("word"):
@@ -114,11 +147,13 @@ def part_search(part, role_keyword, pos_keyword, depth):
     return result
 # ----------------------------------------
 
-def chunk_search(chunk, role_keyword, pos_keyword, depth):
+def chunk_search(chunk, depth, role_keyword, pos_keyword,type):
     result = False
 
     for part in chunk.findall("part"):
-        result = part_search(part, role_keyword, pos_keyword, depth+1)
+        result = part_search(part, role_keyword, pos_keyword, depth+1, False, type)
+        if result:
+            return True
 
     return result
 
