@@ -75,6 +75,8 @@ def chunk_search(chunk, depth, role):
 
     return result
 
+# ---------------------------------------------
+
 path = "/Users/deborah/Desktop/dJangoXMLParser/example/Example_Sentences_181216.xml"
 global count
 global totalCount
@@ -105,12 +107,10 @@ def Load_XML(pathName):
         if not isline and not string == "":
             root = ET.fromstring(string)
             print(count + 1)
-
             count += 1
+
             if searching(root, 0):
-                #reslist = list(root.iter())
-                #result = ' '.join([element.text for element in reslist])
-                #print(result)
+                #printXMLString(root)
                 print(string)
 
             else:
@@ -129,3 +129,9 @@ for i in range(1, 13):
     print(totalCount)
 
 #totalCount += Load_XML("/Users/deborah/Desktop/Sentence_Scoring/sentences/1.xml")
+
+
+def printXMLString(root):
+    reslist = list(root.iter())
+    result = ' '.join([element.text for element in reslist])
+    print(result)
