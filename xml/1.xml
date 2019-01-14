@@ -1,3 +1,19 @@
+<sentence>
+  <part role = "prd">
+    <word pos = "be"> ... </word>
+  </part>
+  <part role = "cpm">
+    <chunk pos = "">
+      <part role = "trg">
+        <word pos = ""> to </word>
+      </part>
+      <part role = "sbj">
+        <word pos = "nn"> I </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
 <!-- I am honored to be with you today at your commencement from one of the finest universities in the world. -->
 <sentence>
   <part role="sbj">
