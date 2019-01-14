@@ -39,7 +39,12 @@ def parse_String_To_XML(string , count):    # string -> XML
     root = ET.fromstring(string)            # string을 root에 넣고 파싱한다
     count += 1                              # 문장 수 + 1 
 
-    type = "to부정사"
+    # BE-110 / BE-120 / VB-100 / 전치사-to / to부정사
+    #type = "BE-110"
+    #type = "BE-120"
+    #type = "VB-100"
+    type = "전치사-to"
+    #type = "to부정사"
 
     if searching(root, type):
         print( type + "\n\n" + string)
@@ -164,6 +169,7 @@ def part_search(part, role_keyword, pos_keyword, depth, isChunk, type, text):
                     if(type == "BE-120"):
                         role_keyword = "trg"
                         pos_keyword = ""
+                        text = " to "
                     if(type == "VB-100"):
                         role_keyword = "trg"
                         pos_keyword = "cj"
@@ -197,7 +203,7 @@ def chunk_search(chunk, depth, role_keyword, pos_keyword, type, text):
                 if result:
                     return True
 
-    if type == "전치사-to":
+    elif type == "전치사-to":
         for part in chunk.findall("part"):
             if not result:        
                result = part_search(part, role_keyword, pos_keyword, depth+1, 0, type, " to ")
@@ -207,7 +213,7 @@ def chunk_search(chunk, depth, role_keyword, pos_keyword, type, text):
                 if result :
                     return True
 
-    if type == "to부정사":
+    elif type == "to부정사":
         for part in chunk.findall("part"):
             if not result:        
                result = part_search(part, role_keyword, pos_keyword, depth+1, 0, type, " to ")
