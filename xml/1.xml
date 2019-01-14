@@ -1,3 +1,19 @@
+<!-- 전치사-to -->
+
+<sentence>
+  <part role = "">
+    <chunk pos = "">
+      <part role = "trg">
+        <word pos = ""> to </word>
+      </part>
+      <part role = "obj">
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- BE-120 Be + to 부정사 -->
 <sentence>
   <part role = "prd">
     <word pos = "be"> ... </word>
@@ -13,6 +29,8 @@
     </chunk>
   </part>
 </sentence>
+
+
 
 <!-- I am honored to be with you today at your commencement from one of the finest universities in the world. -->
 <sentence>
