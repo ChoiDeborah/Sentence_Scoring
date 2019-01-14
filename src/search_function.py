@@ -39,7 +39,7 @@ def parse_String_To_XML(string , count):    # string -> XML
     root = ET.fromstring(string)            # string을 root에 넣고 파싱한다
     count += 1                              # 문장 수 + 1 
 
-    type = "전치사-to"
+    type = "to부정사"
 
     if searching(root, type):
         print( type + "\n\n" + string)
@@ -101,7 +101,14 @@ def searching(node , type):
             if not result:
                 result = part_search(part, "", "", 1, 1, type, "")
                 if(result):
-                    return True                   
+                    return True
+
+    if type == "to부정사":
+        for part in node.findall("part"):
+            if not result:
+                result = part_search(part, "", "", 1, 1, type, "")
+                if(result):
+                    return True                             
 
 
     return False
@@ -114,7 +121,12 @@ def part_search(part, role_keyword, pos_keyword, depth, isChunk, type, text):
     role = part.get("role")                     # if 파트의 롤과 매개변수로 받은 롤을 비교
 
     if isChunk == 2:                            # word 나 chunk나 상관 없을 때 
-        if role == role_keyword:
+        if(role_keyword[:1] == "!"):                                  # role_keyword 만 제외하고
+            roleTemp = role_keyword[1:]                                 # !제외한 나머지 문자열 슬라이싱
+            if roleTemp == "obj":
+                if role != roleTemp:                                    # roleTemp 제외한 나머지 일 경우
+                    return True 
+        elif role == role_keyword:
             return True
     
     if isChunk == 0:                             # word 비교 시 
@@ -159,6 +171,10 @@ def part_search(part, role_keyword, pos_keyword, depth, isChunk, type, text):
                         role_keyword = "trg"
                         pos_keyword = ""
                         text = " to "
+                    if(type == "to부정사"):
+                        role_keyword = "trg"
+                        pos_keyword = ""
+                        text = " to "   
                     result = chunk_search(chunk, depth, role_keyword, pos_keyword, type, text)
                     if result:
                         return True
@@ -189,7 +205,17 @@ def chunk_search(chunk, depth, role_keyword, pos_keyword, type, text):
                 result = False
                 result = part_search(part, "obj", "", depth+1, 2, type, "")
                 if result :
-                    return True   
+                    return True
+
+    if type == "to부정사":
+        for part in chunk.findall("part"):
+            if not result:        
+               result = part_search(part, role_keyword, pos_keyword, depth+1, 0, type, " to ")
+            else :
+                result = False
+                result = part_search(part, "!obj", "", depth+1, 2, type, "")
+                if result :
+                    return True                  
                
 
     else:
